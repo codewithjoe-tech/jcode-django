@@ -1,6 +1,6 @@
 # jcode-django
 
-Django URL routing, ORM relations and signal edges for [jcode](https://github.com/codewithjoes-tech/jcode).
+Django URL routing, ORM relations and signal edges for [jcode](https://github.com/codewithjoe-tech/jcode).
 
 ## What it does
 
@@ -42,8 +42,8 @@ def on_user_saved(sender, **kwargs): ...
 
 ## Part of the jcode ecosystem
 
-- [jcode](https://github.com/codewithjoes-tech/jcode) — core CLI and MCP server
-- [jcode-registry](https://github.com/codewithjoes-tech/jcode-registry) — plugin registry
+- [jcode](https://github.com/codewithjoe-tech/jcode) — core CLI and MCP server
+- [jcode-registry](https://github.com/codewithjoe-tech/jcode-registry) — plugin registry
 
 ---
 
