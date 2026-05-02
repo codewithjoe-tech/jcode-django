@@ -18,12 +18,6 @@ Detects three Django patterns and emits typed edges in the jcode graph — so bl
 jcode add django
 ```
 
-Or manually:
-
-```bash
-pip install jcode-django
-```
-
 ## How it works
 
 Once installed, jcode auto-detects this plugin on any repo that has `django` in its `requirements.txt` or `pyproject.toml`. No configuration needed.
