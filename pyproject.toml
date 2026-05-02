@@ -1,0 +1,19 @@
+[project]
+name = "jcode-django"
+version = "0.1.0"
+description = "Django URL routing, ORM relations and signal edges for jcode"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "Joel Thomas", email = "joel@codewithjoe.in" }]
+dependencies = ["jcode>=0.1.0"]
+
+[project.urls]
+Repository = "https://github.com/codewithjoe-tech/jcode-django"
+
+[project.entry-points."jcode.plugins"]
+django = "jcode_django.plugin:create"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
