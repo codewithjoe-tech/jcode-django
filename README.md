@@ -48,3 +48,9 @@ def on_user_saved(sender, **kwargs): ...
 ---
 
 Made by [Joel Thomas](https://codewithjoe.in)
+
+---
+
+## License
+
+MIT — free to use, modify, distribute, and build commercial products on top of. See [LICENSE](LICENSE).
